@@ -1,0 +1,244 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+}
+/*header start*/
+header{
+	background-color: #121B2A;
+}
+.container{
+	width: 80%;
+	margin:0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	margin:30px 0;
+	width: 70%;
+	float: right;
+}
+.menu ul{
+		float: right;
+
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-size:16px; 
+	font-weight:400;
+	color: #F5F6F7;
+	padding: 0 35px;
+	text-decoration: none;
+	display: inline-block;
+	transition: .3s;
+
+}
+.menu ul li:last-child a{
+	padding-right:0 ;
+}
+.menu ul li a:hover{
+	color: #0177BF;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-image:url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.b_content{
+	width: 40%;
+}
+.b_content h1{
+    margin-top: 140px;
+    margin-bottom: 0;
+    font-size: 33px;
+    font-weight: 400;
+    color: white;
+    text-transform: capitalize;
+}
+.b_content h2{
+	margin:0;
+    font-size: 35px;
+    font-weight: 600;
+    color: #0075B8;
+    text-transform: capitalize;
+}
+.b_content p{
+	font-size:16px; 
+	font-weight:400;
+	color: white;
+	line-height: 30px;
+}
+.b_content button{
+	margin-bottom: 35px;
+	padding: 10px;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #5A5A5A;
+    font-weight: 700;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    transition: .3s;
+}
+.b_content button:hover{
+	 background-color: #0177BF;;
+	 color: white;
+	 cursor: pointer;
+}
+/*banner end*/
+/*service start*/
+.service{
+	padding: 70px 0px;
+	background-color: #121B2C;
+	overflow: hidden;
+}
+.item{
+    padding: 0 38px;
+    float: left;
+    width: 30%;
+    padding-left: 0
+} 
+.item img{
+    float: left;
+    margin-right: 15px;
+}
+.item:last child{
+	padding-right: 0;
+}
+.item h1{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    text-transform: capitalize;
+
+}
+.item h2{
+    margin-top: 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #034E78;
+    text-transform: capitalize;
+}
+.item p{
+	margin: 25px;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    word-spacing: 2px;
+    line-height: 27px;
+}
+
+/*service end*/
+/*contact start*/
+.contact{
+	padding: 80px 0;
+	background-color: #040811;
+	overflow: hidden;
+}
+.contact1{
+    margin-left: 38px;
+    float: left;
+    width: 30%;
+}
+.contact1 h1{
+	margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    text-transform: capitalize;
+    display: inline-block;
+}
+.contact1 h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #034E78;
+    text-transform: capitalize;
+    display: inline-block;
+}
+.contact1 p{
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
+.top{
+	float: left;
+}
+.top img{}
+.bottom{}
+.bottom h1{
+	margin:0 ;
+	margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: capitalize;
+	display: inline-block;
+}
+.bottom h2{
+	margin:0 ;
+	font-size: 30px;
+    font-weight: 700;
+    color: #034E78;
+    text-transform: capitalize;
+	display: inline-block;
+}
+
+/*contact end*/
+/*footer start*/
+.footer{
+	background-color: #121B2C;
+	overflow: hidden;
+
+}
+.menu1{
+	width: 70%;
+	float: left;
+}
+.menu1 ul{}
+.menu1 ul li{
+	list-style: none;
+	float: left;
+}
+.menu1 ul li a{
+	margin: 15px 0;
+	font-size:16px; 
+	font-weight:400;
+	color: #F5F6F7;
+	padding: 0 25px;
+	text-decoration: none;
+	text-transform: capitalize;
+	display: inline-block;
+	transition: .3s;
+}
+.menu1 ul li a:hover{
+	color: #0177BF;
+}
+.menu1 p{
+	margin-left: 65px;
+	font-size: 16px;
+    font-weight: 300;
+    color: white;
+
+}
+.logo1{
+	width: 25%;
+	float: right;
+	
+}
+.logo1 img{
+	width: 100%;
+
+}
+/*footer end*/
